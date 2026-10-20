@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: inline-flex;
+    padding: 25px;
+    box-shadow: 10px 10px 10px rgba(209, 209, 209, 0.648);
+    background-image: linear-gradient(rgb(152, 253, 255), rgb(253, 132, 255));
+    
+}
+
+.logo{
+    flex: 1;
+}
+
+.logo img{
+    max-width: 100px;
+    height: auto;
+}
+
+.text{
+    flex: 3;
+    color: white;
+}
+
+.text p{
+    font-size: 14pt;
+}
