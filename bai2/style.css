@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container{
+    box-shadow: 10px 10px 10px rgb(215, 215, 215);
+    background-image: linear-gradient(rgba(0, 0, 255, 0.231), rgba(236, 118, 226, 0.606));
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.container .task{
+    margin: 10px 50px;
+    font-size: 14pt;
+}
