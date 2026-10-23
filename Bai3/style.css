@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(220, 220, 220, 0.295);
+}
+
+.container{
+    text-align: center;
+    box-shadow: 10px 10px 10px rgba(202, 202, 202, 0.945);
+    background-color: white;
+}
+
+.container h1{
+    margin: 10px 0px;
+}
+
+.container table{
+    border-collapse: collapse;
+}
+
+.container th{
+    background-color: rgba(36, 177, 233, 0.753);
+    color: white;
+}
+
+.container tr th,
+.container tr td{
+    padding: 25px;
+    border: 1px solid rgb(240, 240, 240);
+}
+
+.time{
+    font-weight: bold;
+}
