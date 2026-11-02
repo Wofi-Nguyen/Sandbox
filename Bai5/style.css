@@ -1,0 +1,49 @@
+*{
+    margin: 0;  padding: 0; box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    display: grid;
+    background-color: rgb(207, 207, 207);
+    min-height: 100vh;
+    grid-template-rows: auto 1fr auto;
+}
+
+header,
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    color: white;
+}
+
+header{
+    background-color: skyblue;
+}
+
+footer{
+    background-color: rgb(31, 31, 31);
+}
+
+main {
+    display: grid;
+    place-items: center;
+    background-color: white;
+    padding: 2rem;
+}
+
+.tongdichvu{
+    display: flex;  flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.dichvu{
+    background-image: linear-gradient(skyblue, pink);
+    border: none;   border-radius: 10px;  
+    padding: 50px;
+    text-align: center;
+}
