@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Biểu mẫu khảo sát LANIT</h1>
+      <form autocomplete="off">
+        <div class="type">
+          <label for="name">Họ và tên</label>
+          <input type="text" id="name" name="name" />
+        </div>
+        <div class="type">
+          <label for="email">Email</label>
+          <input type="text" id="email" name="email" />
+        </div>
+        <div class="type">
+          <label for="age">Tuổi</label>
+          <input type="text" id="age" name="age" />
+        </div>
+        <div class="choose">
+          <h2>Hiện bạn đang là?</h2>
+          <input type="radio" id="student" name="status" value="student" />
+          <label for="student">Sinh viên</label>
+          <br />
+          <input type="radio" id="it" name="status" value="it" />
+          <label for="it">IT</label>
+          <br />
+          <input type="radio" id="office" name="status" value="office" />
+          <label for="office">Nhân viên văn phòng</label>
+          <br />
+          <input type="radio" id="other" name="status" value="other" />
+          <label for="other">Khác</label>
+        </div>
+        <div class="choose">
+          <h2>Bạn sẽ giới thiệu với bạn bè chứ?</h2>
+          <input type="radio" id="yes" name="rcm" value="yes" />
+          <label for="yes">Có</label>
+          <br />
+          <input type="radio" id="maybe" name="rcm" value="maybe" />
+          <label for="maybe">Có thể</label>
+          <br />
+          <input type="radio" id="no" name="rcm" value="no" />
+          <label for="no">Không</label>
+        </div>
+        <div class="choose">
+          <h2>Ngôn ngữ lập trình và framework bạn đã biết?</h2>
+          <input type="checkbox" id="python" />
+          <label for="python">Python</label>
+          <br />
+          <input type="checkbox" id="java" />
+          <label for="java">Java</label>
+          <br />
+          <input type="checkbox" id="javascript" />
+          <label for="javascript">JavaScript</label>
+          <br />
+          <input type="checkbox" id="csharp" />
+          <label for="csharp">C#</label>
+          <br />
+          <input type="checkbox" id="php" />
+          <label for="php">PHP</label>
+          <br />
+        </div>
+        <input type="submit" value="Gửi khảo sát" id="#" />
+      </form>
+    </div>
+  </body>
+</html>
