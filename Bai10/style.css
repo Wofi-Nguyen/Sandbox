@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+  margin-top: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.bt {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.bt button {
+  padding: 0.8rem 2rem;
+  background-color: rgba(0, 0, 0, 0.801);
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
