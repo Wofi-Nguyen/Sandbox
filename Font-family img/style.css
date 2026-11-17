@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14pt;
+}
+
+@font-face {
+  font-family: "Fz-Gottam";
+  src: url("Fz-Gottam.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "SVN-Determination Sans";
+  src: url("SVN-Determination Sans.otf") format("opentype");
+}
+
+h1 {
+  letter-spacing: 0.2rem;
+  text-align: justify;
+  font-family: "SVN-Determination Sans", sans-serif;
+  background: linear-gradient(red, orange);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+p {
+  font-family: "Fz-Gottam", sans-serif;
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border: 2px solid black;
+  padding: 2rem;
+  object-fit: contain;
+  background: linear-gradient(lightblue, blue) no-repeat center;
+}
